@@ -1,0 +1,205 @@
+/*  RESPONSIVE  */
+@media screen and (max-width: 1000px){
+    #hamburger{
+        display: block;
+        float:right;
+    }
+    .hamburger-class{
+        width: 4vw;
+        height: 0.5vw;
+        background-color: white;
+        margin: 6px 0px;
+    }
+    #nav{
+        display:none;       
+    }
+    .box{
+        height:15vw;
+    }
+    .mm{
+        padding-top:2.3vw;
+        padding-left:2.9vw;
+    }
+    .text{
+    padding-top:3%;
+    }
+    ::placeholder{
+        font-size:1.5vw;
+    }
+}
+@media screen and (max-width: 720px){
+   .box{
+       height:18vw;
+   }
+   .mm{
+    padding-top:2.7vw;
+    padding-left:2.9vw;
+    }
+    .footerTitle2 h2{
+        font-size:2.5vw;
+    }
+    #welcome{
+        width:80%;
+        border-radius:0%;
+    }
+    #welcome h1{
+        font-size:3vw;
+    }
+@media screen and (max-width: 650px){
+    #aboutTitle h2{
+        font-size:2vw;
+    }
+    #aboutTitle{
+        width:7%;
+    }
+    .text{
+        padding-top:4%;
+    }
+    ::placeholder{
+        font-size:2vw;
+    }
+    #skillsTitle h2{
+        font-size:6vw;
+    }
+    #skillsTitle{
+        width:19%;
+    }
+    #skills-all{
+        flex-wrap:wrap;
+    }
+    .skills-v1{
+        width:49.8%;
+        border-bottom:1px solid white;
+    }
+    #welcome{
+        width:100%;
+        border-radius:0%;
+    }
+    #welcome h1{
+        font-size:5vw;
+        height:7vw;
+    }
+    .projectsTitle h2{
+        font-size:5vw;
+    }
+    .projectsTitle{
+        width:21%;
+    }
+    #aboutTitle h2{
+        font-size:5vw;
+    }
+    #aboutTitle{
+        width:17%;
+    }
+    #header #logo{
+        width:50%;
+    }
+    #logoPic img{
+        height:10vw;
+    }
+    #logoText1{
+        font-size:1.3vw;
+    }
+    #logoText2{
+        font-size:1.3vw;
+    }
+    #about{
+        height:55vw;
+    }
+    #aboutText{
+        font-size:1.7vw;
+    }
+    #aboutHolder{
+        height:42vw;
+        width:80%;
+    }
+    .kraj{
+        width:100%;
+        margin:1px;
+    }
+    .kraj2{
+        width:100%;
+        margin:1px;
+    }
+    #footer-holder{
+        width:90%;
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+    .footerTitle h2{
+        font-size:4vw;
+        padding-left:11%;
+        margin-top:10%;
+    }
+    .footerTitle2 h2{
+        font-size:4vw;
+        margin-top:10%;
+    }
+    .box{
+        width:30vw;
+        height:30vw;
+    }
+    .mm{
+     padding-top:3.2vw;
+     padding-left:3.6vw;
+     }
+    .social{
+        font-size:7vw;
+    }
+}
+@media screen and (max-width: 520px){
+    .skills-v1{
+        width:100%;
+        border-bottom:1px solid white;
+    }
+    .skills-v1 h2{
+        padding-left:10%;
+    }
+    ::placeholder{
+        font-size:2.5vw;
+    }
+    .box{
+        width:60vw;
+    }
+    .mm{
+        padding-top:3.6vw;
+        padding-left:10.6vw;
+    }
+    .social{
+        width:49.8%;
+    }
+    .projects-v1{
+        width:100%;
+        height:24%;
+    }
+    #projects-all{
+        height:180vw;
+    }
+    .projects-v1 img{
+        width:100%;
+        height:100%;
+    }
+}
+@media screen and (max-width: 450px){
+    #welcome h1{
+        font-size:4vw;
+        height:5vw;
+    }
+    #aboutText{
+        font-size:1.65vw;
+    }
+    ::placeholder{
+        font-size:3.5vw;
+    }
+    .footerTitle2 h2{
+        font-size:5vw;
+    }
+    .footerTitle h2{
+        font-size:5vw;
+    }
+    .skills-v1 h2{
+        padding-right:3%;
+    }
+}
+}
